@@ -7,7 +7,7 @@
 </script>
 
 <template>
-  <button :class="['font-medium rounded-[100px]', className, { 'bg-primary': isPrimary }]">
+  <button :class="['font-medium rounded-[100px]', className, { 'bg-primary': isPrimary, 'shadow-custom': hasShadow }]">
     <slot></slot>
   </button>
 </template>

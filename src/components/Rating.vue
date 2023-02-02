@@ -15,7 +15,7 @@
 </script>
 
 <template>
-  <div class="flex space-x-3">
+  <div class="flex space-x-1">
     <div v-for="item in star">
       <img :src="ic_star" alt="icon star" :class="className" />
     </div>

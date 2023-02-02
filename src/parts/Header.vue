@@ -6,11 +6,11 @@
 </script>
 
 <template>
-  <header class="mt-7 mx-8 flex justify-between items-center lg:mt-5 lg:mx-28">
-    <BrandIcon className="w-[150px]" />
+  <header class="pt-7 px-8 flex justify-between items-center lg:pt-5 lg:px-28">
+    <BrandIcon className="w-32 lg:w-40" />
 
     <nav>
-      <ul class="hidden lg:flex text-secondary space-x-[32px] text-sm">
+      <ul class="hidden lg:flex text-secondary space-x-[32px] text-sm font-medium">
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li class="relative">
@@ -25,7 +25,7 @@
 
     <div class="flex items-center">
       <a href="#" class="hidden text-dark font-medium text-sm mr-6 lg:block">Masuk</a>
-      <Button isPrimary className="px-5 py-3 text-white">Daftar Sekarang</Button>
+      <Button isPrimary className="px-5 py-3 text-sm text-white">Daftar Sekarang</Button>
     </div>
   </header>
 </template>
