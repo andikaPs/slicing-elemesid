@@ -4,6 +4,7 @@
   import Categories from './parts/Categories.vue'
   import Header from './parts/Header.vue'
   import Hero from './parts/Hero.vue'
+  import Trending from './parts/Trending.vue'
 
   onMounted(() => {
     document.title = 'Landing Page'
@@ -18,6 +19,7 @@
 
   <main>
     <Categories />
+    <Trending />
   </main>
 </template>
 

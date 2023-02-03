@@ -116,8 +116,7 @@
     <CardCategory v-for="category in categories" :key="category.id" :imageUrl="category.imageUrl"
       :title="category.title" :color="category.color" :items="category.items" />
   </section>
-
-  <div class="hidden mx-28 mb-52 lg:flex space-x-3 float-right mt-3">
+  <div class="hidden mx-28 lg:flex space-x-3 float-right mt-3">
     <Button isPrimary className="px-3 py-2 text-white flex items-center uppercase text-sm" :onClick="handlePrev">
       <span class="w-6 h-6 mr-1.5 rounded-full grid place-content-center bg-white text-dark">
         <svg class="w-4 h-4" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">

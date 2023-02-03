@@ -10,7 +10,7 @@
 
 <template>
   <div
-    class="w-60 h-44 rounded-3xl flex-shrink-0 flex flex-col items-center justify-center snap-center transition-all lg:hover:h-48 group lg:relative lg:overflow-hidden"
+    class="w-60 h-44 rounded-3xl flex-shrink-0 flex flex-col items-center justify-center snap-center transition-all lg:hover:h-48 group lg:relative lg:overflow-hidden cursor-pointer"
     :class="color">
     <div class="hidden lg:block absolute inset-0">
       <img :src="backgrounImage" alt="background image"
