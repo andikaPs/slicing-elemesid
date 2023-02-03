@@ -87,7 +87,7 @@
   <section class="mt-36 mx-8 lg:mt-48 lg:mx-28">
     <SectionTitle title="Browser Our Trending" />
 
-    <div class="grid grid-cols-1 gap-5 mt-10 lg:grid-cols-4">
+    <div class="grid grid-cols-1 gap-5 mt-10 lg:grid-cols-4 mb-44 lg:mb-0">
       <Card v-for="trending in trendingRecipts" :key="trending.id" :imageUrl="trending.imageUrl" :title="trending.title"
         :category="trending.category" :rating="trending.rating" :color="trending.color" />
     </div>

@@ -1,5 +1,6 @@
 <script setup>
   import Button from '../components/Button.vue'
+  import Navbar from '../components/Navbar.vue'
   import BrandIcon from './BrandIcon.vue'
 
 
@@ -9,19 +10,7 @@
   <header class="pt-7 px-8 flex justify-between items-center lg:pt-5 lg:px-28">
     <BrandIcon className="w-32 lg:w-40" />
 
-    <nav>
-      <ul class="hidden lg:flex text-secondary space-x-[32px] text-sm font-medium">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li class="relative">
-          <span
-            class="absolute text-[8px] z-10 -top-5 -right-5 bg-[#E7462D] text-white px-2.5 py-0.5 rounded-3xl font-bold">HOT</span>
-          <a href="#">Promotions</a>
-        </li>
-        <li><a href="#">Blogs</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-    </nav>
+    <Navbar />
 
     <div class="flex items-center">
       <a href="#" class="hidden text-dark font-medium text-sm mr-6 lg:block">Masuk</a>
