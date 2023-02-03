@@ -11,6 +11,7 @@
   import kathi_kebab from '@/assets/images/kathi_kebab.png'
   import { reactive } from 'vue'
   import Card from '../components/Card.vue'
+  import Button from '../components/Button.vue'
 
   const trendingRecipts = reactive([
     {
@@ -86,9 +87,13 @@
   <section class="mt-36 mx-8 lg:mt-48 lg:mx-28">
     <SectionTitle title="Browser Our Trending" />
 
-    <div class="grid grid-cols-1 gap-5 my-10 lg:grid-cols-4">
+    <div class="grid grid-cols-1 gap-5 mt-10 lg:grid-cols-4">
       <Card v-for="trending in trendingRecipts" :key="trending.id" :imageUrl="trending.imageUrl" :title="trending.title"
         :category="trending.category" :rating="trending.rating" :color="trending.color" />
+    </div>
+
+    <div class="hidden lg:flex justify-center mt-28">
+      <Button isPrimary class="px-8 py-2.5 text-white">ALL Receipts</Button>
     </div>
   </section>
 </template>

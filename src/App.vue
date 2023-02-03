@@ -2,6 +2,7 @@
   import { onMounted } from 'vue'
   import Rating from './components/Rating.vue'
   import Categories from './parts/Categories.vue'
+  import Footer from './parts/Footer.vue'
   import Header from './parts/Header.vue'
   import Hero from './parts/Hero.vue'
   import Trending from './parts/Trending.vue'
@@ -21,6 +22,8 @@
     <Categories />
     <Trending />
   </main>
+
+  <Footer />
 </template>
 
 <style scoped>
